@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default ({greeting}) => <h1>{greeting} World</h1>
+export default ({greeting, to}) => <h1>{greeting} {to}</h1>
